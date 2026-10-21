@@ -11,17 +11,17 @@ A lightweight, single-file PHP script to generate cryptographically secure passw
 
 ## Usage
 
-Upload `index.php` to your PHP server (e.g., Apache, Nginx).
+Upload `passgenerator.php` to your PHP server (e.g., Apache, Nginx).
 
 ### 1. Web Interface
 Navigate to the file in your browser to generate a password instantly. You can customize the length by changing the URL parameter:
-`http://your-domain.com/index.php?length=24`
+`http://your-domain.com/passgenerator.php?length=24`
 
 ### 2. JSON API
 You can use this tool as a RESTful API by passing the `api=true` parameter.
 
 **Request:**
-`GET /index.php?api=true&length=20`
+`GET /passgenerator.php?api=true&length=20`
 
 **Response:**
 {
